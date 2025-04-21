@@ -2,13 +2,13 @@
 
 namespace BookManagerAPI.Entities
 {
-    public class category
+    public class Category
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
 
         // Navigation properties
-        public ICollection Books { get; set; } 
+        public ICollection <Books> Books{ get; set; } 
     }
 }

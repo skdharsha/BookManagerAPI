@@ -12,7 +12,7 @@
 
         //Navigation properties
         public int? categoryId { get; set; }
-        public category Category { get; set; }
+        public Category Category { get; set; }
 
         public int? UserId { get; set; }
         public User User { get; set; }

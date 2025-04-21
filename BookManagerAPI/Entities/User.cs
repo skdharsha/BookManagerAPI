@@ -12,6 +12,6 @@ namespace BookManagerAPI.Entities
         public DateTime CreatedAt { get; set; } = DateTime.Now;
 
         //Navigation properties
-        public ICollection Books { get; set; }
+        public ICollection< Books> Books { get; set; }
     }
 }
